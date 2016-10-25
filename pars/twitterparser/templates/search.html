@@ -5,7 +5,7 @@
     {% csrf_token %}
     <label for="option-one" class="pure-radio">
         <input id="option-one" type="radio" name="optionsRadios" value="option1">
-        Выборка твиттов пользователя:<br><br>
+        Выборка твиттов по ключевым словам:<br><br>
         {% for field in query_form %}
             <label>{{ field.label }}</label><br>
             {{ field }}<br><br>
@@ -14,7 +14,7 @@
 <br><br>
     <label for="option-two" class="pure-radio">
         <input id="option-two" type="radio" name="optionsRadios" value="option2">
-        Выборка твиттов по ключевым словам:<br><br>
+        Выборка твиттов пользователя:<br><br>
         {% for field in user_form %}
             <label>{{ field.label }}</label><br>
             {{ field }}<br><br>
