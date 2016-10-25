@@ -1,0 +1,15 @@
+{% extends 'main.html' %}
+{% block begin %}
+<form class="pure-form" method="post" action="/search/">
+    {% csrf_token %}
+    <fieldset>
+        <h3>Для начала работы введите данные:<br></h3>
+        {% for field in key_form %}
+            <label>{{ field.label }}</label><br>
+            {{ field }}<br><br>
+        {% endfor %}
+        <br>
+        <div class="pure-controls"><button type="submit" class="pure-button pure-button-primary">Продолжить</button></div>
+    </fieldset>
+</form>
+{% endblock %}

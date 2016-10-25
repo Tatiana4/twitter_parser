@@ -1,0 +1,10 @@
+{% extends 'main.html' %}
+{% block result %}
+<form method="post">
+    {% csrf_token %}
+    <p>Выборка данных завершена.</p><br>
+    <button class="pure-button pure-button-primary" formaction="download/">Скачать результат</button><br>
+    <br>
+    <button class="pure-button pure-button-primary" formaction="/search/">Еще один поиск</button>
+</form>
+{% endblock %}

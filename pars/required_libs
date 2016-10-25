@@ -1,0 +1,10 @@
+tweepy
+pandas
+openpyxl
+datetime
+os
+mimetypes
+glob2
+
+
+django_project_name: pars
