@@ -85,17 +85,26 @@ def search(request):
             count1 = params['count1']
             result_type = params['result_type']
             until = params['date']
-            # проверяем введенную дату
-            now = date.today()
-            delta = now - until
-            min_delta = timedelta(days=7)
-            if delta < min_delta:
-                # авторизуем пользователя в апи твиттера и выполняем выборку
+
+            # если дата введена
+            if until is not None:
+                # проверяем введенную дату
+                now = date.today()
+                delta = now - until
+                min_delta = timedelta(days=7)
+                if delta < min_delta:
+                    # авторизуем пользователя в апи твиттера и выполняем выборку
+                    parser_by_query.auth(consumer_key, consumer_secret,
+                                         access_token, access_token_secret)
+                    parser_by_query.query_tweets(query, count1, result_type, until)
+                else:
+                    errors.append('Введенная дата старше 1 недели')
+
+            # если дата не введена
+            else:
                 parser_by_query.auth(consumer_key, consumer_secret,
                                      access_token, access_token_secret)
-                parser_by_query.query_tweets(query, count1, result_type, until)
-            else:
-                errors.append('Введенная дата старше 1 недели')
+                parser_by_query.query_tweets(query, count1, result_type)
 
             if not errors:
                 return redirect('/result/')
