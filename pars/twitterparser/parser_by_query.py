@@ -43,7 +43,7 @@ def make_file(tweets_df, user_info_df):
     os.remove(name + '.xlsx')
 
 
-def query_tweets(*args):
+def get_tweets_by_query(*args):
     if len(args) == 3:
         query = args[0]
         count = args[1]

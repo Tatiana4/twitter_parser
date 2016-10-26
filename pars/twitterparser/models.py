@@ -7,14 +7,14 @@ class Tweet(models.Model):
     class Meta():
         db_table = 'Tweets'
     tweet_text = models.CharField(max_length=200)
-    tweet_date = models.DateTimeField()
+    tweet_date = models.DateField()
     tweet_username = models.CharField(max_length=50)
 
 
 class User(models.Model):
     class Meta():
         db_table = 'Users'
-    username = models.ForeignKey(Tweet)
+    username = models.CharField(max_length=50)
     name = models.CharField(max_length=50)
     location = models.CharField(max_length=50, blank=True)
     friends = models.IntegerField()

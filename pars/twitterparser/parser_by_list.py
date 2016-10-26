@@ -44,7 +44,7 @@ def make_file(tweets_df, user_info_df):
     os.remove(name + '.xlsx')
 
 
-def user_tweets(*args):
+def get_tweets_of_user(*args):
     # все твитты пользователей
     if len(args) == 1:
         username_list = args[0]
