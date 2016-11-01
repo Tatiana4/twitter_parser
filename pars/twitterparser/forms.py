@@ -14,9 +14,11 @@ class ApiForm(forms.Form):
 
 class SearchByUser(forms.Form):
     usernames = forms.CharField(label='имя пользователя:', required=False,
-                                widget=forms.TextInput(attrs={'class': 'pure-input-2-3'}))
+                                widget=forms.TextInput(attrs={'class': 'pure-input-2-3',
+                                                              'title': 'без @. их может быть несколько - через запятую'}))
     count = forms.IntegerField(label='количество твитов:', required=False,
-                               widget=forms.NumberInput(attrs={'class': 'pure-input-2-3'}))
+                               widget=forms.NumberInput(attrs={'class': 'pure-input-2-3',
+                                                               'title': 'можно оставить пустым, тогда будут выбраны все'}))
 
 
 class SearchByQuery(forms.Form):
@@ -28,4 +30,4 @@ class SearchByQuery(forms.Form):
     result_type = forms.ChoiceField(choices=result_type_choices, label='тип выборки:', required=False,
                                widget=forms.Select(attrs={'class': 'pure-input-2-3'}))
     date = forms.DateField(label='дата:', required=False,
-                           widget=forms.DateInput(attrs={'class': 'pure-input-2-3'}))
+                           widget=forms.DateInput(attrs={'class': 'pure-input-2-3', 'title': 'в формате YYYY-MM-DD'}))

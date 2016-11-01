@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d780b612-d9aa-431f-878f-b4f5221b11f1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pars/twitterparser/models.py" afterPath="$PROJECT_DIR$/pars/twitterparser/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pars/twitterparser/parser_by_list.py" afterPath="$PROJECT_DIR$/pars/twitterparser/parser_by_list.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pars/twitterparser/parser_by_query.py" afterPath="$PROJECT_DIR$/pars/twitterparser/parser_by_query.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pars/twitterparser/views.py" afterPath="$PROJECT_DIR$/pars/twitterparser/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pars/pars/settings.py" afterPath="$PROJECT_DIR$/pars/pars/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pars/templates/main.html" afterPath="$PROJECT_DIR$/pars/templates/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pars/twitterparser/forms.py" afterPath="$PROJECT_DIR$/pars/twitterparser/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pars/twitterparser/templates/search.html" afterPath="$PROJECT_DIR$/pars/twitterparser/templates/search.html" />
     </list>
     <ignored path="parser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,34 +27,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pars/twitterparser/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="89" selection-start-line="26" selection-start-column="89" selection-end-line="26" selection-end-column="89" />
+            <state relative-caret-position="360">
+              <caret line="26" column="82" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="82" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pars/twitterparser/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pars/twitterparser/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -76,22 +55,25 @@
         <option value="$PROJECT_DIR$/t_parser/t_parser/urls.py" />
         <option value="$PROJECT_DIR$/t_parser/t_parser/settings.py" />
         <option value="$PROJECT_DIR$/pars/pars/urls.py" />
-        <option value="$PROJECT_DIR$/pars/pars/settings.py" />
         <option value="$PROJECT_DIR$/pars/twitterparser/templates/begin.html" />
         <option value="$PROJECT_DIR$/pars/twitterparser/parser_by_username.py" />
-        <option value="$PROJECT_DIR$/pars/twitterparser/templates/result.html" />
         <option value="$PROJECT_DIR$/pars/twitterparser/urls.py" />
         <option value="$PROJECT_DIR$/pars/twitterparser/templates/how_to.html" />
-        <option value="$PROJECT_DIR$/pars/twitterparser/forms.py" />
         <option value="$PROJECT_DIR$/pars/static/JS/active.js" />
-        <option value="$PROJECT_DIR$/pars/templates/main.html" />
-        <option value="$PROJECT_DIR$/pars/twitterparser/templates/search.html" />
         <option value="$PROJECT_DIR$/../../django/testapp/app1/article/models.py" />
         <option value="$PROJECT_DIR$/pars/twitterparser/admin.py" />
         <option value="$PROJECT_DIR$/pars/twitterparser/parser_by_query.py" />
         <option value="$PROJECT_DIR$/pars/twitterparser/parser_by_list.py" />
         <option value="$PROJECT_DIR$/pars/twitterparser/111.py" />
         <option value="$PROJECT_DIR$/pars/twitterparser/models.py" />
+        <option value="$PROJECT_DIR$/pars/static/JS/active menu.js" />
+        <option value="$PROJECT_DIR$/pars/pars/static/JS/menu.js" />
+        <option value="$PROJECT_DIR$/pars/pars/settings.py" />
+        <option value="$PROJECT_DIR$/pars/twitterparser/templates/result.html" />
+        <option value="$PROJECT_DIR$/../исходники/parser_by_query.py" />
+        <option value="$PROJECT_DIR$/pars/twitterparser/forms.py" />
+        <option value="$PROJECT_DIR$/pars/twitterparser/templates/search.html" />
+        <option value="$PROJECT_DIR$/pars/templates/main.html" />
         <option value="$PROJECT_DIR$/pars/twitterparser/views.py" />
       </list>
     </option>
@@ -177,6 +159,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -185,7 +203,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.111">
+  <component name="RunManager" selected="Python.parser_by_username">
     <configuration default="false" name="111" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,6 +217,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="parser" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pars/twitterparser/111.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="parser_by_query" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../исходники" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="parser" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../исходники/parser_by_query.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="parser_by_username" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../исходники" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="parser" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../исходники/parser_by_username.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -337,12 +389,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.111" />
+      <item index="1" class="java.lang.String" itemvalue="Python.parser_by_query" />
+      <item index="2" class="java.lang.String" itemvalue="Python.parser_by_username" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.111" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.parser_by_username" />
+        <item index="1" class="java.lang.String" itemvalue="Python.parser_by_query" />
+        <item index="2" class="java.lang.String" itemvalue="Python.111" />
       </list>
     </recent_temporary>
   </component>
@@ -408,11 +464,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pars/twitterparser/views.py" />
-    <entry file="file://$PROJECT_DIR$/t_parser/t_parser/urls.py" />
-    <entry file="file://$PROJECT_DIR$/t_parser/pars/tests.py" />
-    <entry file="file://$PROJECT_DIR$/t_parser/pars/urls.py" />
-    <entry file="file://$PROJECT_DIR$/t_parser/pars/forms.py" />
     <entry file="file://$PROJECT_DIR$/t_parser/pars/templates/begin.html" />
     <entry file="file://$PROJECT_DIR$/t_parser/pars/views.py" />
     <entry file="file://$PROJECT_DIR$/t_parser/t_parser/wsgi.py" />
@@ -454,13 +505,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pars/twitterparser/parser_by_username.py" />
-    <entry file="file://$PROJECT_DIR$/pars/twitterparser/templates/result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pars/twitterparser/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -501,31 +545,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pars/static/JS/active.js" />
-    <entry file="file://$PROJECT_DIR$/pars/pars/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-700">
-          <caret line="59" column="84" selection-start-line="59" selection-start-column="84" selection-end-line="59" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pars/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pars/twitterparser/templates/begin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pars/twitterparser/templates/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -574,30 +597,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pars/twitterparser/parser_by_query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="45" column="23" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pars/twitterparser/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="89" selection-start-line="26" selection-start-column="89" selection-end-line="26" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pars/twitterparser/111.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="88" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pars/twitterparser/111.py" />
     <entry file="file://$PROJECT_DIR$/pars/twitterparser/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -614,13 +614,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pars/static/JS/active menu.js" />
+    <entry file="file://$PROJECT_DIR$/pars/pars/static/JS/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pars/pars/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="127" column="1" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pars/static/JS/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pars/twitterparser/templates/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../исходники/parser_by_query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../исходники/parser_by_username.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pars/twitterparser/parser_by_query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-484">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pars/twitterparser/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="470">
+          <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pars/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pars/twitterparser/templates/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pars/twitterparser/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="82" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="82" />
+          <folding />
         </state>
       </provider>
     </entry>
