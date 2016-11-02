@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <!--подсветка пункта меню, на котором находится пользователь-->
     <script type="text/javascript">
         $(document).ready(function(){
@@ -28,8 +29,8 @@
                 $('#id_usernames').removeAttr('required');
                 $('#id_count').attr('disabled', 'disable');
                 $('#id_count').removeAttr('required');
-                $(':button').removeClass('pure-button pure-button-disabled')
-                $(':button').addClass('pure-button pure-button-primary')
+                $(':button').removeClass('pure-button pure-button-disabled');
+                $(':button').addClass('pure-button pure-button-primary');
             });
             $('#option-two').click(function(){
                 $('#id_usernames').removeAttr('disabled');
@@ -42,8 +43,11 @@
                 $('#id_count1').removeAttr('required');
                 $('#id_result_type').attr('disabled', 'disable');
                 $('#id_date').attr('disabled', 'disable');
-                $(':button').removeClass('pure-button pure-button-disabled')
-                $(':button').addClass('pure-button pure-button-primary')
+                $(':button').removeClass('pure-button pure-button-disabled');
+                $(':button').addClass('pure-button pure-button-primary');
+            });
+            $(':button').click(function(){
+                $('p').removeAttr('hidden');
             });
         });
     </script>

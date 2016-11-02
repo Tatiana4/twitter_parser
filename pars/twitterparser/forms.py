@@ -2,13 +2,17 @@ from django import forms
 
 
 class ApiForm(forms.Form):
-    apikey = forms.CharField(max_length=25, required=True, label='Consumer Key (API Key):',
+    apikey = forms.CharField(max_length=25, min_length=25,
+                             required=True, label='Consumer Key (API Key):',
                              widget=forms.TextInput(attrs={'class': 'pure-input-1'}))
-    apisecret = forms.CharField(max_length=50, required=True, label='Consumer Secret (API Secret):',
+    apisecret = forms.CharField(max_length=50, min_length=50,
+                                required=True, label='Consumer Secret (API Secret):',
                                 widget=forms.TextInput(attrs={'class': 'pure-input-1'}))
-    token = forms.CharField(max_length=50, required=True, label='Access Token:',
+    token = forms.CharField(max_length=50, min_length=50,
+                            required=True, label='Access Token:',
                             widget=forms.TextInput(attrs={'class': 'pure-input-1'}))
-    tokensecret = forms.CharField(max_length=45, required=True, label='Access Token Secret:',
+    tokensecret = forms.CharField(max_length=45, min_length=45,
+                                  required=True, label='Access Token Secret:',
                                   widget=forms.TextInput(attrs={'class': 'pure-input-1'}))
 
 
