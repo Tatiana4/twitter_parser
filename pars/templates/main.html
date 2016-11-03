@@ -36,7 +36,6 @@
                 $('#id_usernames').removeAttr('disabled');
                 $('#id_usernames').attr('required', 'required');
                 $('#id_count').removeAttr('disabled');
-                $('#id_count').attr('required', 'required');
                 $('#id_query').attr('disabled', 'disable');
                 $('#id_query').removeAttr('required');
                 $('#id_count1').attr('disabled', 'disable');
@@ -47,7 +46,7 @@
                 $(':button').addClass('pure-button pure-button-primary');
             });
             $(':button').click(function(){
-                $('p').removeAttr('hidden');
+                $('#p').removeAttr('hidden');
             });
         });
     </script>

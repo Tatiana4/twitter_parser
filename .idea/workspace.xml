@@ -4,7 +4,7 @@
     <list default="true" id="d780b612-d9aa-431f-878f-b4f5221b11f1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pars/templates/main.html" afterPath="$PROJECT_DIR$/pars/templates/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pars/twitterparser/forms.py" afterPath="$PROJECT_DIR$/pars/twitterparser/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pars/twitterparser/templates/begin.html" afterPath="$PROJECT_DIR$/pars/twitterparser/templates/begin.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pars/twitterparser/templates/search.html" afterPath="$PROJECT_DIR$/pars/twitterparser/templates/search.html" />
     </list>
     <ignored path="parser.iws" />
@@ -36,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pars/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+            <state relative-caret-position="353">
+              <caret line="45" column="73" selection-start-line="45" selection-start-column="73" selection-end-line="45" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -49,19 +49,21 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pars/twitterparser/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-502">
+            <state relative-caret-position="2484">
               <caret line="147" column="3" selection-start-line="147" selection-start-column="3" selection-end-line="147" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pars/twitterparser/templates/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="23" column="94" selection-start-line="23" selection-start-column="94" selection-end-line="23" selection-end-column="94" />
-              <folding />
+            <state relative-caret-position="432">
+              <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+              <folding>
+                <element signature="n#style#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,7 +86,6 @@
         <option value="$PROJECT_DIR$/t_parser/t_parser/urls.py" />
         <option value="$PROJECT_DIR$/t_parser/t_parser/settings.py" />
         <option value="$PROJECT_DIR$/pars/pars/urls.py" />
-        <option value="$PROJECT_DIR$/pars/twitterparser/templates/begin.html" />
         <option value="$PROJECT_DIR$/pars/twitterparser/parser_by_username.py" />
         <option value="$PROJECT_DIR$/pars/twitterparser/urls.py" />
         <option value="$PROJECT_DIR$/pars/twitterparser/templates/how_to.html" />
@@ -102,8 +103,9 @@
         <option value="$PROJECT_DIR$/../исходники/parser_by_query.py" />
         <option value="$PROJECT_DIR$/pars/twitterparser/views.py" />
         <option value="$PROJECT_DIR$/pars/twitterparser/forms.py" />
-        <option value="$PROJECT_DIR$/pars/templates/main.html" />
+        <option value="$PROJECT_DIR$/pars/twitterparser/templates/begin.html" />
         <option value="$PROJECT_DIR$/pars/twitterparser/templates/search.html" />
+        <option value="$PROJECT_DIR$/pars/templates/main.html" />
       </list>
     </option>
   </component>
@@ -137,6 +139,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -229,8 +233,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -549,9 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5596">
           <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-          <folding>
-            <element signature="e#956#2138#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -566,7 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-864">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,13 +629,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pars/static/JS/menu.js" />
-    <entry file="file://$PROJECT_DIR$/pars/twitterparser/templates/result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../исходники/parser_by_query.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -656,7 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="839">
           <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,7 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="28" column="139" selection-start-line="28" selection-start-column="139" selection-end-line="28" selection-end-column="139" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,24 +667,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pars/twitterparser/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-502">
+        <state relative-caret-position="2484">
           <caret line="147" column="3" selection-start-line="147" selection-start-column="3" selection-end-line="147" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pars/twitterparser/templates/begin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pars/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -708,10 +681,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pars/twitterparser/templates/begin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="89" selection-start-line="11" selection-start-column="89" selection-end-line="11" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pars/twitterparser/templates/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pars/twitterparser/templates/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="23" column="94" selection-start-line="23" selection-start-column="94" selection-end-line="23" selection-end-column="94" />
+        <state relative-caret-position="432">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pars/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="45" column="73" selection-start-line="45" selection-start-column="73" selection-end-line="45" selection-end-column="73" />
           <folding />
         </state>
       </provider>
