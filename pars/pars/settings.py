@@ -56,8 +56,10 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            '/home/tatiana/python/twitter_parser/parser/pars/templates',
-            '/home/tatiana/python/twitter_parser/parser/pars/twitterparser/templates',
+            os.path.join(BASE_DIR, 'templates'),
+            os.path.join(BASE_DIR, 'twitterparser/templates'),
+            #'/home/tatiana/python/twitter_parser/parser/pars/templates',
+            #'/home/tatiana/python/twitter_parser/parser/pars/twitterparser/templates',
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -124,7 +126,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    ('static', '/home/tatiana/python/twitter_parser/parser/pars/static')
+    os.path.join(BASE_DIR, 'static'),
 ]
 
 #STATIC_ROOT = os.path.join(BASE_DIR, 'static')
