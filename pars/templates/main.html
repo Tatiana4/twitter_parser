@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,49 +8,8 @@
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <!--подсветка пункта меню, на котором находится пользователь-->
-    <script type="text/javascript">
-        $(document).ready(function(){
-            var link = window.location.pathname;
-            $('.pure-menu-item a[href="'+link+'"]').parent().addClass('pure-menu-item pure-menu-selected');
-        });
-    </script>
-    <!--активация полей ввода при выборе одного из радиобаттонов-->
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('.pure-input-2-3').attr('disabled', 'disabled');
-            $('#option-one').click(function(){
-                $('#id_query').removeAttr('disabled');
-                $('#id_query').attr('required', 'required');
-                $('#id_count1').removeAttr('disabled');
-                $('#id_count1').attr('required', 'required');
-                $('#id_result_type').removeAttr('disabled');
-                $('#id_date').removeAttr('disabled');
-                $('#id_usernames').attr('disabled', 'disable');
-                $('#id_usernames').removeAttr('required');
-                $('#id_count').attr('disabled', 'disable');
-                $('#id_count').removeAttr('required');
-                $(':button').removeClass('pure-button pure-button-disabled');
-                $(':button').addClass('pure-button pure-button-primary');
-            });
-            $('#option-two').click(function(){
-                $('#id_usernames').removeAttr('disabled');
-                $('#id_usernames').attr('required', 'required');
-                $('#id_count').removeAttr('disabled');
-                $('#id_query').attr('disabled', 'disable');
-                $('#id_query').removeAttr('required');
-                $('#id_count1').attr('disabled', 'disable');
-                $('#id_count1').removeAttr('required');
-                $('#id_result_type').attr('disabled', 'disable');
-                $('#id_date').attr('disabled', 'disable');
-                $(':button').removeClass('pure-button pure-button-disabled');
-                $(':button').addClass('pure-button pure-button-primary');
-            });
-            $(':button').click(function(){
-                $('#p').removeAttr('hidden');
-            });
-        });
-    </script>
+    <script src="{% static 'JS/menu.js'%}"></script>
+    <script src="{% static 'JS/block.js'%}"></script>
 </head>
 <body>
 <div class="pure-menu pure-menu-horizontal">
