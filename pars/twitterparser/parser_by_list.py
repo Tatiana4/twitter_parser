@@ -73,13 +73,13 @@ def get_tweets_of_user(*args):
 
         for username in username_list:
             for tweet in tweepy.Cursor(api.user_timeline, username).items(count):
-                d = {}
+                t = {}
                 created_at = datetime.strptime((tweet._json.get('created_at')), '%a %b %d %X %z %Y')
-                d['name'] = username
-                d['creation_date'] = created_at.strftime('%Y-%m-%d')
-                d['creation_time'] = created_at.strftime('%X')
-                d['text'] = tweet._json.get('text')
-                tweets.append(d)
+                t['name'] = username
+                t['creation_date'] = created_at.strftime('%Y-%m-%d')
+                t['creation_time'] = created_at.strftime('%X')
+                t['text'] = tweet._json.get('text')
+                tweets.append(t)
 
             get_user_info(username)
 

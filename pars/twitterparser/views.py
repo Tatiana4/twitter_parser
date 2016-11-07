@@ -67,7 +67,7 @@ def search(request):
                         tweet.tweet_username = t['name']
                         tweet.save()
 
-                    #пишем в БД инфу о юзерах
+                    # пишем в БД инфу о юзерах
                     users = parser_by_list.user_info
                     for u in users:
                         user = User()
