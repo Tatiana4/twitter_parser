@@ -51,71 +51,77 @@ def search(request):
             params = user_form.cleaned_data
             usernames = params['usernames'].split(', ')
             count = params['count']
-            if count is None:
-                # если количество не задано, парсим все твитты
-                try:
-                    # авторизуем пользователя в апи твиттера и выполняем выборку
-                    parser_by_list.auth(consumer_key, consumer_secret,
-                                        access_token, access_token_secret)
-                    parser_by_list.get_tweets_of_user(usernames)
-                    # пишем в БД выборку твиттов
-                    tweets = parser_by_list.tweets
-                    for t in tweets:
-                        tweet = Tweet()
-                        tweet.tweet_text = t['text']
-                        tweet.tweet_date = t['creation_date']
-                        tweet.tweet_username = t['name']
-                        tweet.save()
 
-                    # пишем в БД инфу о юзерах
-                    users = parser_by_list.user_info
-                    for u in users:
-                        user = User()
-                        user.username = u['user']
-                        user.name = u['name']
-                        user.location = u['location']
-                        user.friends = u['friends']
-                        user.followers = u['followers']
-                        user.description = u['description']
-                        user.creation_date = u['creation_date']
-                        user.save()
+            # запретим пользователю вводить список более 5 юзернеймов
+            if len(usernames) <= 5:
+                if count is None:
+                    # если количество не задано, парсим все твитты
+                    try:
+                        # авторизуем пользователя в апи твиттера и выполняем выборку
+                        parser_by_list.auth(consumer_key, consumer_secret,
+                                            access_token, access_token_secret)
+                        parser_by_list.get_tweets_of_user(usernames)
+                        # пишем в БД выборку твиттов
+                        tweets = parser_by_list.tweets
+                        for t in tweets:
+                            tweet = Tweet()
+                            tweet.tweet_text = t['text']
+                            tweet.tweet_date = t['creation_date']
+                            tweet.tweet_username = t['name']
+                            tweet.save()
 
-                except tweepy.TweepError as e:
-                    # на тот случай, если при вводе имени допущена ошибка
-                    if int((str(e).split('= '))[-1]) == 404:
-                        errors.append('Пользователь не найден')
+                        # пишем в БД инфу о юзерах
+                        users = parser_by_list.user_info
+                        for u in users:
+                            user = User()
+                            user.username = u['user']
+                            user.name = u['name']
+                            user.location = u['location']
+                            user.friends = u['friends']
+                            user.followers = u['followers']
+                            user.description = u['description']
+                            user.creation_date = u['creation_date']
+                            user.save()
+
+                    except tweepy.TweepError as e:
+                        # на тот случай, если при вводе имени допущена ошибка
+                        if int((str(e).split('= '))[-1]) == 404:
+                            errors.append('Пользователь не найден')
+                else:
+                    try:
+                        # авторизуем пользователя в апи твиттера и выполняем выборку
+                        parser_by_list.auth(consumer_key, consumer_secret,
+                                            access_token, access_token_secret)
+                        parser_by_list.get_tweets_of_user(usernames, count)
+                        # пишем в БД выборку твиттов
+                        tweets = parser_by_list.tweets
+                        for t in tweets:
+                            tweet = Tweet()
+                            tweet.tweet_text = t['text']
+                            tweet.tweet_date = t['creation_date']
+                            tweet.tweet_username = t['name']
+                            tweet.save()
+
+                        # пишем в БД инфу о юзерах
+                        users = parser_by_list.user_info
+                        for u in users:
+                            user = User()
+                            user.username = u['user']
+                            user.name = u['name']
+                            user.location = u['location']
+                            user.friends = u['friends']
+                            user.followers = u['followers']
+                            user.description = u['description']
+                            user.creation_date = u['creation_date']
+                            user.save()
+
+                    except tweepy.TweepError as e:
+                        # на тот случай, если при вводе имени допущена ошибка
+                        if int((str(e).split('= '))[-1]) == 404:
+                            errors.append('Пользователь не найден')
+
             else:
-                try:
-                    # авторизуем пользователя в апи твиттера и выполняем выборку
-                    parser_by_list.auth(consumer_key, consumer_secret,
-                                        access_token, access_token_secret)
-                    parser_by_list.get_tweets_of_user(usernames, count)
-                    # пишем в БД выборку твиттов
-                    tweets = parser_by_list.tweets
-                    for t in tweets:
-                        tweet = Tweet()
-                        tweet.tweet_text = t['text']
-                        tweet.tweet_date = t['creation_date']
-                        tweet.tweet_username = t['name']
-                        tweet.save()
-
-                    # пишем в БД инфу о юзерах
-                    users = parser_by_list.user_info
-                    for u in users:
-                        user = User()
-                        user.username = u['user']
-                        user.name = u['name']
-                        user.location = u['location']
-                        user.friends = u['friends']
-                        user.followers = u['followers']
-                        user.description = u['description']
-                        user.creation_date = u['creation_date']
-                        user.save()
-
-                except tweepy.TweepError as e:
-                    # на тот случай, если при вводе имени допущена ошибка
-                    if int((str(e).split('= '))[-1]) == 404:
-                        errors.append('Пользователь не найден')
+                errors.append('Слишком большой список пользователей. Оставьте 5 или меньше.')
 
             if not errors:
                 return redirect('/result/')
