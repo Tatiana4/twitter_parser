@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d780b612-d9aa-431f-878f-b4f5221b11f1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pars/twitterparser/parser_by_list.py" afterPath="$PROJECT_DIR$/pars/twitterparser/parser_by_list.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pars/twitterparser/views.py" afterPath="$PROJECT_DIR$/pars/twitterparser/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pars/pars/settings.py" afterPath="$PROJECT_DIR$/pars/pars/settings.py" />
     </list>
     <ignored path="parser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +24,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pars/twitterparser/forms.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pars/twitterparser/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+            <state relative-caret-position="353">
+              <caret line="125" column="26" selection-start-line="125" selection-start-column="26" selection-end-line="125" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+                <element signature="e#1899#5322#0" expanded="false" />
+                <element signature="e#1937#3638#0" expanded="false" />
+                <element signature="e#2494#2734#0" expanded="false" />
+                <element signature="e#2912#3375#0" expanded="false" />
+                <element signature="e#3452#3638#0" expanded="false" />
+                <element signature="e#3681#5322#0" expanded="false" />
+                <element signature="e#3710#5059#0" expanded="false" />
+                <element signature="e#4178#4418#0" expanded="false" />
+                <element signature="e#4596#5059#0" expanded="false" />
+                <element signature="e#5136#5322#0" expanded="false" />
+                <element signature="e#5848#9234#0" expanded="false" />
+                <element signature="e#6163#7751#0" expanded="false" />
+                <element signature="e#6827#7051#0" expanded="false" />
+                <element signature="e#7215#7646#0" expanded="false" />
+                <element signature="e#7808#8990#0" expanded="false" />
+                <element signature="e#8235#8443#0" expanded="false" />
+                <element signature="e#8591#8990#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pars/twitterparser/templates/result.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="89" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pars/pars/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -64,15 +102,16 @@
         <option value="$PROJECT_DIR$/pars/pars/static/JS/menu.js" />
         <option value="$PROJECT_DIR$/../исходники/parser_by_query.py" />
         <option value="$PROJECT_DIR$/pars/twitterparser/forms.py" />
-        <option value="$PROJECT_DIR$/pars/twitterparser/templates/result.html" />
-        <option value="$PROJECT_DIR$/pars/twitterparser/templates/how_to.html" />
         <option value="$PROJECT_DIR$/pars/twitterparser/templates/begin.html" />
         <option value="$PROJECT_DIR$/pars/twitterparser/templates/search.html" />
         <option value="$PROJECT_DIR$/pars/pars/urls.py" />
-        <option value="$PROJECT_DIR$/pars/pars/settings.py" />
         <option value="$PROJECT_DIR$/pars/templates/main.html" />
+        <option value="$PROJECT_DIR$/pars/twitterparser/templates/how_to.html" />
         <option value="$PROJECT_DIR$/pars/twitterparser/parser_by_list.py" />
+        <option value="$PROJECT_DIR$/../исходники/parser_by_list_of_usernames.py" />
         <option value="$PROJECT_DIR$/pars/twitterparser/views.py" />
+        <option value="$PROJECT_DIR$/pars/twitterparser/templates/result.html" />
+        <option value="$PROJECT_DIR$/pars/pars/settings.py" />
       </list>
     </option>
   </component>
@@ -107,7 +146,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,12 +256,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.parser_by_username">
+  <component name="RunManager" selected="Python.parser_by_list_of_usernames">
     <configuration default="false" name="111" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -271,6 +310,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="parser" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../исходники/parser_by_username.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="parser_by_list_of_usernames" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../исходники" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="parser" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../исходники/parser_by_list_of_usernames.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -409,16 +465,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.111" />
       <item index="1" class="java.lang.String" itemvalue="Python.parser_by_query" />
       <item index="2" class="java.lang.String" itemvalue="Python.parser_by_username" />
+      <item index="3" class="java.lang.String" itemvalue="Python.parser_by_list_of_usernames" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.parser_by_username" />
-        <item index="1" class="java.lang.String" itemvalue="Python.parser_by_query" />
-        <item index="2" class="java.lang.String" itemvalue="Python.111" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.parser_by_list_of_usernames" />
+        <item index="1" class="java.lang.String" itemvalue="Python.parser_by_username" />
+        <item index="2" class="java.lang.String" itemvalue="Python.parser_by_query" />
+        <item index="3" class="java.lang.String" itemvalue="Python.111" />
       </list>
     </recent_temporary>
   </component>
@@ -447,18 +505,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -484,7 +542,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/t_parser/pars/views.py" />
     <entry file="file://$PROJECT_DIR$/t_parser/t_parser/wsgi.py" />
     <entry file="file://$PROJECT_DIR$/t_parser/t_parser/settings.py" />
     <entry file="file://$PROJECT_DIR$/pars/pars/settings.py">
@@ -517,13 +574,6 @@
     <entry file="file://$PROJECT_DIR$/t_parser/t_parser/wsgi.py" />
     <entry file="file://$PROJECT_DIR$/t_parser/t_parser/settings.py" />
     <entry file="file://$PROJECT_DIR$/pars/twitterparser/parser_by_username.py" />
-    <entry file="file://$PROJECT_DIR$/pars/twitterparser/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/env/lib/python3.5/site-packages/django/forms/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5596">
@@ -614,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pars/twitterparser/templates/result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pars/twitterparser/templates/begin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -636,69 +679,106 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pars/static/JS/block.js" />
-    <entry file="file://$PROJECT_DIR$/pars/twitterparser/templates/how_to.html">
+    <entry file="file://$PROJECT_DIR$/pars/pars/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pars/pars/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="128" column="38" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pars/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pars/twitterparser/parser_by_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="306">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pars/twitterparser/parser_by_query.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
+        <state relative-caret-position="66">
           <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pars/pars/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#638#679#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pars/twitterparser/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pars/twitterparser/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="18">
           <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pars/twitterparser/templates/how_to.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="34" column="145" selection-start-line="34" selection-start-column="145" selection-end-line="34" selection-end-column="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pars/twitterparser/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pars/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="97" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pars/twitterparser/parser_by_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../исходники/parser_by_list_of_usernames.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="91" column="31" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pars/twitterparser/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="125" column="26" selection-start-line="125" selection-start-column="26" selection-end-line="125" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#1899#5322#0" expanded="false" />
+            <element signature="e#1937#3638#0" expanded="false" />
+            <element signature="e#2494#2734#0" expanded="false" />
+            <element signature="e#2912#3375#0" expanded="false" />
+            <element signature="e#3452#3638#0" expanded="false" />
+            <element signature="e#3681#5322#0" expanded="false" />
+            <element signature="e#3710#5059#0" expanded="false" />
+            <element signature="e#4178#4418#0" expanded="false" />
+            <element signature="e#4596#5059#0" expanded="false" />
+            <element signature="e#5136#5322#0" expanded="false" />
+            <element signature="e#5848#9234#0" expanded="false" />
+            <element signature="e#6163#7751#0" expanded="false" />
+            <element signature="e#6827#7051#0" expanded="false" />
+            <element signature="e#7215#7646#0" expanded="false" />
+            <element signature="e#7808#8990#0" expanded="false" />
+            <element signature="e#8235#8443#0" expanded="false" />
+            <element signature="e#8591#8990#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pars/twitterparser/templates/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="89" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pars/pars/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding />
         </state>
       </provider>
